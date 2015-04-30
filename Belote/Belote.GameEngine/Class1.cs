@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Belote.Data
+namespace Belote.GameEngine
 {
     public class Class1
     {

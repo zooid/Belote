@@ -193,7 +193,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -273,6 +272,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Belote.Data\Belote.Data.csproj">
+      <Project>{eda74658-93b8-4218-a101-998fd76e09e7}</Project>
+      <Name>Belote.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Belote.Models\Belote.Models.csproj">
+      <Project>{dad37f72-e5e0-4b6c-89dc-5414bc2e094b}</Project>
+      <Name>Belote.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
